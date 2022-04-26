@@ -152,6 +152,11 @@ ul {
   width:10rem;
 }
 
+.video {
+  width:400px;
+  height:400px;
+}
+
 /* The Modal (background) */
 .modal {
   
@@ -211,6 +216,12 @@ a.modal-link{
   .gif {
     float: left;
     margin-top: 10px;
+  }
+
+  .video {
+    padding-top: 20px;
+    width:400px;
+    height:400px;
   }
 
 
