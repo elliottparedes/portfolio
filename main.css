@@ -1,0 +1,217 @@
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(33,37,41) white;
+    
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(33,37,41);
+    border-radius: 0px;
+    border: 0px solid white;
+  }
+
+  html {
+    
+    scroll-behavior: smooth;
+
+    
+  }
+
+  
+a {
+    color: white;
+    
+}
+a:hover {
+    color:white;
+    text-decoration:underline; 
+    cursor:pointer;  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style: circle;
+}
+
+.center-horizontally {
+    display:block;
+    padding:50px;
+    width: 100%;
+}
+.center-vertically {
+  margin:auto
+}
+.centered {
+  
+  padding-left:10%;
+  padding-right:10%;
+
+
+}
+
+.navbar-toggler {
+  margin-left:8%;
+}
+
+/* Custom Fonts */
+.medieval {
+  font-family: 'MedievalSharp', cursive;
+  color:red;
+}
+.text-white {
+  color:white;
+}
+
+/* Fonts */
+/* .navbar {
+    height:5vh;
+    max-width: 100%;
+   padding-right:30px;
+   padding-left:30px;
+} */
+
+
+
+#aboutme {
+    
+
+    font-size: larger;
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+center {
+  position: relative;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#projects {
+  margin-left:5%;
+  margin-right:5%;
+}
+#contactme{
+  margin-left:15%;
+  margin-right:15%;
+}
+
+#employment {
+  margin-left:5%;
+  margin-right:5%;
+
+}
+
+#computerimg {
+  /* height:480px; */
+  width:100%;
+  margin:0;
+  padding:10%;
+}
+#confusedimg {
+  /* height:400px; */
+  width:100%;
+  margin:0;
+  padding:10%;
+  
+}
+
+.jumbo-text {
+  font-size:50px;
+}
+
+p .aboutme {
+  color:red;
+}
+
+#footer {
+  margin-top: 5rem;
+  background-color:rgb(33,37,41);
+  color:white;
+}
+ul {
+  list-style-type: none;
+}
+.btn {
+  width:10rem;
+}
+
+/* The Modal (background) */
+.modal {
+  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+a.modal-link{
+  color:black;
+  text-decoration: none;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) 
+{
+  #contactme{
+    margin-left:0;
+    margin-right:0;
+  }
+  .gif {
+    float: left;
+    margin-top: 10px;
+  }
+
+
+}

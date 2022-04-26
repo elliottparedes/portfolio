@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-light bg-dark">
+        
+            <p class="center-vertically"><a href="#home">Home</a></p>
+            <p class="center-vertically"><a href="#aboutme">About Me</a></p>
+            <p class="center-vertically"><a href="#projects">Projects</a></p>
+            <p class="center-vertically"><a href="#employment">Employment</a></p>
+            <p class="center-vertically"><a href="#contactme">Contact Me</a></p>
+            <!-- <p><a href="#resume">Resume</a></p> -->
+            <button onclick=" window.open('/files/resume.PDF','_blank')" class="btn btn-light center-vertically"><a style="color:black;">Resume</a></button>
+        
+    </nav>
+
+    <nav class="navbar sticky-top navbar-light bg-dark" style="display: none;">
+        <button class="navbar-toggler bg-light" id="myBtn">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+
+ <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close center">&times;</span>
+      <p class="center-vertically mb-2"><a class="modal-link" href="#home">Home</a></p>
+      <p class="center-vertically mb-2"><a class="modal-link" href="#aboutme">About Me</a></p>
+      <p class="center-vertically mb-2"><a class="modal-link" href="#projects">Projects</a></p>
+      <p class="center-vertically mb-2"><a class="modal-link" href="#employment">Employment</a></p>
+      <p class="center-vertically mb-2"><a class="modal-link" href="#contactme">Contact Me</a></p>
+      <!-- <p><a href="#resume">Resume</a></p> -->
+      <button class="btn btn-dark center-vertically"><a class="modal-link" href="/files/resume.PDF" target="_blank" style="color:white;"> Download Resume</a></button>
+    </div>
+  
+  </div>   
+
+
+
+
+    <div class="container-fluid">
+            <div class = "row centered" id="home">
+                <div class=" col-xs-12 col-sm-12 col-md-6 text-center center-vertically pt-5" style="font-size:larger" >
+                   <p>Hi my name is</p>
+                   <p class="jumbo-text">Elliott Paredes.</p>
+                   <p>Your next full stack developer.</p>
+                   <p>I'm a developer with experience coding and deploying both front and back end applications. </p>
+               </div>
+               <div class = "col col-xs-12 col-sm-12 col-md-6 text-center">
+                   <img src="/images/bitmojicomputer.PNG" id="computerimg">
+               </div>
+
+            </div>
+            <div class="row centered">
+                <div class="col d-none  d-lg-block text-center">
+                    <img src="/images/confused.PNG" id="confusedimg">
+                </div>
+                <div class="col mt-5" >
+                    <div class = "text-start centered" id="aboutme">
+                    <p>
+                        Hello! My names Elliott. I have a serious passion for tackeling challenging projects.
+                        The frustration is just part of the process, and I embrace it. 
+                    </p>
+
+                    <p>
+                        Well organized and a problem solver, I have a high attention to detail. 
+                    </p>
+                        
+                    <p>
+                        Interested in both front and back end developemnt on any ambitious project. 
+                    </p>
+                    <p>
+                        Have a passion for education and community involvement. 
+                    </p>
+                    <p>
+                        Enjoy a good game of Dungeons & Dragons. 
+                    </p>
+                    <p>
+                        Probably spend more time searching on Crunchyroll or Netflix looking for a show to watch than actually watching the show.  
+                    </p>
+
+                    </div>
+                </div>    
+            </div> 
+            <div class="row centered mt-5 mb-5" id="projects">
+                <div class="col">
+                <h4 class="pb-4 text-center"> Here is some of my recent work along with the technologies used. </h4> 
+                <div class = "row mt-4">
+                   <div class = "col">
+                        <h5>Live Chat with web sockets</h5>
+                        <ul>
+                            <li><p>Built front end in React using Web Sockets to improve on previous project</p></li>
+                            <li><p>Connected to custom Web Socket server using NodeJS</p></li>
+                            <li><p> Used express in NodeJS to connect with MongoDB database </p></li>
+                            <li><p>Secured Front End authentication with Auth0</p></li>
+                        </ul>
+                        
+                        
+                        
+                        
+                        <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/instantmessage_frontend" target="_blank" >Front-End Code</a></button>
+                        <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/instantmessage_backend" target="_blank" >Back-End Code</a></button>
+                        <button class = "btn btn-primary mb-2"><a href="https://joyful-queijadas-e7e56b.netlify.app/" target="_blank"> Live View</a> </button>
+                   </div>
+                   <div class = "col d-none  d-xl-block text-left">
+                       <span>
+                           <img src="/images/html.PNG">
+                           <img src="/images/css.PNG">
+                           <img src="/images/javascript.PNG">
+                           <img src="/images/node.PNG">
+                           <img src="/images/mongo.PNG">
+                           <img src="/images/react.PNG">
+                           <img src="/images/auth0.PNG">
+                        </span> 
+                   </div>
+                   <div class = "col text-center">
+                    <iframe width="400" height="400" src="https://www.youtube.com/embed/W5RSAvotG_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div> 
+               </div>
+
+
+
+            <div class = "row mt-5">
+                <div class = "col">
+                     <h5>Live chat using server polling and customer login</h5>
+                     <ul>
+                        <li><p>Built front end in React using Web Polling</p></li>
+                        <li><p>Connected to custom REST API built using NodeJS</p></li>
+                        <li><p>Designed and Built REST API in NodeJS to connect with MongoDB database </p></li>
+                        <li><p>Implemented JSON Web Tokens to authenticate users</p></li>
+                    </ul>
+                     <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/friendMessengerFrontEnd" target="_blank" >Front-End Code</a></button>
+                     <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/friendMessengerBackend" target="_blank" >Back-End Code</a></button>
+                     <button class = "btn btn-primary mb-2"><a href="https://friendmessenger.netlify.app/login" target="_blank"> Live View</a> </button>
+                </div>
+                <div class = "col d-none d-xl-block text-left">
+                    <span>
+                        <img src="/images/html.PNG">
+                        <img src="/images/css.PNG">
+                        <img src="/images/javascript.PNG">
+                        <img src="/images/node.PNG">
+                        <img src="/images/mongo.PNG">
+                        <img src="/images/react.PNG">
+                        
+                     </span> 
+                </div>
+                <div class = "col text-center">
+                    <iframe width="400" height="400" src="https://www.youtube.com/embed/qtlcl2bTUMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+            </div>
+
+            <div class = "row mt-4">
+                <div class = "col">
+                     <h5>Small Business Website</h5>
+                     <ul>
+                        <li><p>Built and deployed a website using HTML, CSS and Javascript for local taco vender in Dallas, TX</p></li>
+                        <li><p>Built REST API to save customer quote and contact request into a mongoDB database</p></li>
+                        <li><p>Used Google Mail API to alert business owner to quote and contact requests. </p></li>
+                    </ul>
+                     <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/ninos_tacos_frontend" target="_blank" >Front-End Code</a></button>
+                     <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/ninos_tacos_backend" target="_blank" >Back-End Code</a></button>
+                     <button class = "btn btn-primary mb-2"><a href="https://www.ninostacos.com/" target="_blank"> Live View</a> </button>
+                </div>
+                <div class = "col d-none d-xl-block text-left">
+                    <span>
+                        <img src="/images/html.PNG">
+                        <img src="/images/css.PNG">
+                        <img src="/images/javascript.PNG">
+                        <img src="/images/node.PNG">
+                        <img src="/images/mongo.PNG">
+                        
+                        
+                     </span> 
+                </div>
+                <div class = "col text-center">
+                    <iframe width="400" height="400" src="https://www.youtube.com/embed/UlohD-IJ0kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+            </div>
+
+            <div class = "row mt-4">
+                <div class = "col">
+                     <h5>Blog Website</h5>
+                     <ul>
+                        <li><p>Built and deployed a simple blog website using EJS as the templating engine </p></li>
+                        <li><p>Connected to custom REST API built using NodeJS and Express</p></li>
+                        <li><p>Connected customer subscription page to MongoDB database </p></li>
+                    </ul>
+                     <button class = "btn btn-dark mb-2"><a href="https://github.com/elliottparedes/moneymatters" target="_blank" >Front-End Code</a></button>
+                     <button class = "btn btn-primary mb-2"><a href="https://moneymattersproject.herokuapp.com/" target="_blank"> Live View</a> </button>
+                </div>
+                <div class = "col d-none d-xl-block text-left">
+                    <span>
+                        <img src="/images/html.PNG">
+                        <img src="/images/css.PNG">
+                        <img src="/images/javascript.PNG">
+                        <img src="/images/node.PNG">
+                        <img src="/images/mongo.PNG">
+                        
+                       
+                     </span> 
+                </div>
+                <div class = "col text-center">
+                    <iframe width="400" height="400" src="https://www.youtube.com/embed/67rjqpYYPo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+            </div>
+    
+              
+                </div>
+            </div>
+
+            <div class="row centered mb-5" id="employment">
+                <div class="col">
+                    <h4 class="pb-4 text-center"> Work History</h4> 
+                <div class = "row bt-4 mt-4">
+                   <div class = "col">
+                        <h5>Generation Junior Full Stack Java Developer Program</h5>
+                        <p class="mt-3">Generation USA</p>
+                        <p > April 2022 - Present</p>
+                    </div>
+                    <div class = "col text-start">
+                        <p>Upon completion, will have accrued 460+ training hours applying technologies required to create full stack web applications with Java, including Spring Boot Framework, Spring Data JPA, Spring Security, Dependency Injection, implementing basic unit tests, and deploying applications to Heroku </p> 
+                   </div> 
+               </div>
+               <div class = "row mt-4">
+                <div class = "col">
+                     <h5>Freelance Work</h5>
+                     <p class="mt-3">Nino's Tacos</p>
+                     <p > January 2022 - Present</p>
+                 </div>
+                 <div class = "col text-start">
+                     <p>Built and deployed a website using HTML, CSS and JavaScript for local taco vendor in Dallas, TX. Built REST API to save customer quote and contact request into a MongoDB database. Used Google Mail API to alert business owner to quote and contact requests. </p> 
+                </div> 
+            </div>
+            <div class = "row mt-4">
+                <div class = "col">
+                     <h5>Mathematics Teacher</h5>
+                     <p class="mt-3">Uplift Education - Ascend Middle School</p>
+                     <p > August 2021- March 2022</p>
+                 </div>
+                 <div class = "col text-start">
+                     <p>	Effectively developed and implemented math curriculum for a class of 75 students. 
+                        	Gathered and used data to create concise and effective instruction.
+                        Frequently communicated with parents regarding students' progress and possible gaps. 
+                        	Ensured all students were meeting appropriate state standards.
+                        	Provided necessary accommodations and modifications for growth and success of all students. 
+                        </p> 
+                </div> 
+            </div>
+            <div class = "row mt-4">
+                <div class = "col">
+                     <h5>Mathematics Teacher's Assistant</h5>
+                     <p class="mt-3">Uplift Education - Ascend Middle School</p>
+                     <p > August 2019- August 2021</p>
+                 </div>
+                 <div class = "col text-start">
+                     <p>Assisted lead teacher with implementation of curriculum for 140 students.
+                        	Organized small groups to help lessen educational gaps students may have faced.
+                        	Coordinated and executed after school test preparation for 140 students. 
+                        	Piloted after-school anime club to build community and camaraderie among students.
+                        </p> 
+                </div> 
+            </div>
+
+        
+                </div>
+            </div>
+               
+
+
+            <div class="row mt-5" id="contactme">
+   
+                <div class="col">
+                    <div class = "card shadow p-3">
+                    <div class="py-4">
+                    <h4 class="text-center">Contact Me</h4>
+
+                    <!-- Bootstrap 5 starter form -->
+                    <form id="contactForm">
+                  
+                      <!-- Name input -->
+                      <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Name" />
+                      </div>
+                  
+                      <!-- Email address input -->
+                      <div class="mb-3">
+                        <label class="form-label" for="emailAddress">Email Address</label>
+                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                      </div>
+                  
+                      <!-- Message input -->
+                      <div class="mb-3">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                      </div>
+                  
+                      <!-- Form submit button -->
+                      <div class=" text-center">
+                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                      </div>
+                  
+                    </form>
+                  
+                  </div>
+
+               </div> 
+                </div>
+            </div>
+
+            <div class="row border-top shadow-sm mt-5" id="">
+                <div class = "col-sm-12 float-right text-center">
+                    <img class="mt-4" onclick=" window.open('https://www.linkedin.com/in/elliott-paredes-977697a4/','_blank')"  src="/images/linkedin.PNG" style="cursor:pointer">
+                    <img class="mt-4" onclick=" window.open('https://github.com/elliottparedes','_blank')" href="" src="images/github.PNG" style="cursor:pointer">
+                  </div>
+      
+                  <div class = "col-12 text=center mt-4">
+                    <p class = "text-center"><small id ="copyright">@Elliott Paredes 2022. All rights reserved.</small></p>
+            
+                  </div>
+            </div>
+
+
+
+
+
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
